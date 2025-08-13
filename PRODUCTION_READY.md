@@ -184,16 +184,16 @@ customer-analytics-dashboard/
 ### Step 3: Environment Configuration
 Set these environment variables in Streamlit Cloud:
 
-```bash
-ENVIRONMENT=production
-DEBUG=False
-ENABLE_AUTH=True
-SECRET_KEY=your-production-secret-key-here
-ANONYMIZE_DATA=True
-ENABLE_TELEMETRY=True
-LOG_LEVEL=INFO
-MAX_FILE_SIZE_MB=200
-MAX_RECORDS=100000
+```toml
+ENVIRONMENT = "production"
+DEBUG = false
+ENABLE_AUTH = true
+SECRET_KEY = "your-production-secret-key-here"
+ANONYMIZE_DATA = true
+ENABLE_TELEMETRY = true
+LOG_LEVEL = "INFO"
+MAX_FILE_SIZE_MB = 200
+MAX_RECORDS = 100000
 ```
 
 ### Step 4: Deploy
