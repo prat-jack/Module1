@@ -1,9 +1,3 @@
-# System packages for Streamlit Cloud deployment
-# These packages will be installed using apt-get
-
-# For data processing and analytics
 libgl1-mesa-glx
 libglib2.0-0
-
-# For memory monitoring
 libpq-dev
