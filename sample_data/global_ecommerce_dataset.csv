@@ -1,0 +1,116 @@
+customer_id,order_date,product_name,quantity,unit_price,total_amount,country,region,city,latitude,longitude,postal_code,customer_segment,currency_code
+C0001,2023-01-15,Wireless Headphones,2,89.99,179.98,United States,California,Los Angeles,34.0522,-118.2437,90210,Premium,USD
+C0002,2023-01-16,Smartphone Case,1,24.99,24.99,Canada,Ontario,Toronto,43.6532,-79.3832,M5V 3A8,Regular,CAD
+C0003,2023-01-17,Coffee Maker,1,119.99,119.99,United Kingdom,England,London,51.5074,-0.1278,SW1A 1AA,Premium,GBP
+C0004,2023-01-18,Running Shoes,1,79.99,79.99,Germany,Bavaria,Munich,48.1351,11.5820,80331,Regular,EUR
+C0005,2023-01-19,Bluetooth Speaker,2,55.99,111.98,France,Île-de-France,Paris,48.8566,2.3522,75001,Premium,EUR
+C0006,2023-02-01,Vacuum Cleaner,1,189.99,189.99,Australia,New South Wales,Sydney,-33.8688,151.2093,2000,Premium,AUD
+C0007,2023-02-03,Power Bank,2,39.99,79.98,Japan,Tokyo,Tokyo,35.6762,139.6503,100-0001,Regular,JPY
+C0008,2023-02-05,Casual T-Shirt,1,29.99,29.99,Brazil,São Paulo,São Paulo,-23.5505,-46.6333,01310-100,Regular,BRL
+C0009,2023-02-07,Air Purifier,1,249.99,249.99,India,Maharashtra,Mumbai,19.0760,72.8777,400001,Premium,INR
+C0010,2023-02-10,Denim Jeans,1,69.99,69.99,Mexico,Mexico City,Mexico City,19.4326,-99.1332,06000,Regular,MXN
+C0011,2023-02-15,Smart Watch,1,299.99,299.99,Singapore,Central Region,Singapore,1.3521,103.8198,018989,Premium,SGD
+C0012,2023-02-20,Gaming Mouse,1,49.99,49.99,South Korea,Seoul,Seoul,37.5665,126.9780,04524,Regular,KRW
+C0013,2023-02-25,Fitness Tracker,1,129.99,129.99,Netherlands,North Holland,Amsterdam,52.3676,4.9041,1012 WX,Premium,EUR
+C0014,2023-03-01,Wireless Keyboard,1,89.99,89.99,Sweden,Stockholm,Stockholm,59.3293,18.0686,111 29,Regular,SEK
+C0015,2023-03-05,Tablet Stand,2,19.99,39.98,Norway,Oslo,Oslo,59.9139,10.7522,0150,Regular,NOK
+C0016,2023-03-10,External Monitor,1,329.99,329.99,Switzerland,Zurich,Zurich,47.3769,8.5417,8001,Premium,CHF
+C0017,2023-03-15,Portable Speaker,1,79.99,79.99,Austria,Vienna,Vienna,48.2082,16.3738,1010,Regular,EUR
+C0018,2023-03-20,Laptop Bag,1,59.99,59.99,Belgium,Brussels,Brussels,50.8503,4.3517,1000,Regular,EUR
+C0019,2023-03-25,Webcam,1,69.99,69.99,Denmark,Capital Region,Copenhagen,55.6761,12.5683,1050,Regular,DKK
+C0020,2023-04-01,Phone Tripod,1,24.99,24.99,Finland,Uusimaa,Helsinki,60.1699,24.9384,00100,Regular,EUR
+C0021,2023-04-05,Noise Cancelling Headphones,1,199.99,199.99,Spain,Madrid,Madrid,40.4168,-3.7038,28001,Premium,EUR
+C0022,2023-04-10,Portable Charger,2,34.99,69.98,Italy,Lazio,Rome,41.9028,12.4964,00118,Regular,EUR
+C0023,2023-04-15,Smart Home Hub,1,149.99,149.99,Portugal,Lisbon,Lisbon,38.7223,-9.1393,1000-001,Premium,EUR
+C0024,2023-04-20,Wireless Earbuds,1,89.99,89.99,Poland,Mazovia,Warsaw,52.2297,21.0122,00-001,Regular,PLN
+C0025,2023-04-25,USB Hub,1,29.99,29.99,Czech Republic,Prague,Prague,50.0755,14.4378,110 00,Regular,CZK
+C0026,2023-05-01,Bluetooth Adapter,1,19.99,19.99,Hungary,Budapest,Budapest,47.4979,19.0402,1051,Regular,HUF
+C0027,2023-05-05,Desk Organizer,1,39.99,39.99,Romania,Bucharest,Bucharest,44.4268,26.1025,010011,Regular,RON
+C0028,2023-05-10,Phone Ring Holder,3,9.99,29.97,Bulgaria,Sofia,Sofia,42.6977,23.3219,1000,Regular,BGN
+C0029,2023-05-15,Screen Cleaning Kit,2,14.99,29.98,Croatia,Zagreb,Zagreb,45.8150,15.9819,10000,Regular,HRK
+C0030,2023-05-20,Cable Management Box,1,24.99,24.99,Slovenia,Ljubljana,Ljubljana,46.0569,14.5058,1000,Regular,EUR
+C0031,2023-06-01,Laptop Cooling Pad,1,49.99,49.99,Estonia,Tallinn,Tallinn,59.4370,24.7536,10111,Regular,EUR
+C0032,2023-06-05,Phone Car Holder,1,19.99,19.99,Latvia,Riga,Riga,56.9496,24.1052,LV-1050,Regular,EUR
+C0033,2023-06-10,Wireless Mouse Pad,1,34.99,34.99,Lithuania,Vilnius,Vilnius,54.6872,25.2797,01103,Regular,EUR
+C0034,2023-06-15,USB Extension Cable,2,12.99,25.98,Slovakia,Bratislava,Bratislava,48.1486,17.1077,811 01,Regular,EUR
+C0035,2023-06-20,Phone Privacy Screen,1,29.99,29.99,Malta,Southern Region,Valletta,35.8989,14.5146,VLT 1110,Regular,EUR
+C0036,2023-06-25,Portable Hard Drive,1,89.99,89.99,Cyprus,Nicosia,Nicosia,35.1856,33.3823,1016,Regular,EUR
+C0037,2023-07-01,Wireless Charging Stand,1,39.99,39.99,Iceland,Reykjavik,Reykjavik,64.1466,-21.9426,101,Regular,ISK
+C0038,2023-07-05,Bluetooth Car Adapter,1,24.99,24.99,Turkey,Istanbul,Istanbul,41.0082,28.9784,34000,Regular,TRY
+C0039,2023-07-10,Phone Lens Kit,1,19.99,19.99,Greece,Attica,Athens,37.9838,23.7275,105 64,Regular,EUR
+C0040,2023-07-15,Laptop Security Lock,1,34.99,34.99,Israel,Tel Aviv,Tel Aviv,32.0853,34.7818,61000,Regular,ILS
+C0041,2023-07-20,USB Memory Stick,2,16.99,33.98,United Arab Emirates,Dubai,Dubai,25.2048,55.2708,00000,Regular,AED
+C0042,2023-07-25,Phone Stand,3,14.99,44.97,Saudi Arabia,Riyadh,Riyadh,24.7136,46.6753,11564,Regular,SAR
+C0043,2023-08-01,Wireless Router,1,129.99,129.99,Qatar,Doha,Doha,25.2854,51.5310,00000,Premium,QAR
+C0044,2023-08-05,Network Switch,1,79.99,79.99,Kuwait,Kuwait City,Kuwait City,29.3117,47.4818,00000,Regular,KWD
+C0045,2023-08-10,Cable Tester,1,29.99,29.99,Oman,Muscat,Muscat,23.5859,58.4059,100,Regular,OMR
+C0046,2023-08-15,Ethernet Cable,5,8.99,44.95,Bahrain,Capital,Manama,26.2285,50.5860,317,Regular,BHD
+C0047,2023-08-20,WiFi Extender,1,59.99,59.99,Jordan,Amman,Amman,31.9454,35.9284,11118,Regular,JOD
+C0048,2023-08-25,Power Strip,2,24.99,49.98,Lebanon,Beirut,Beirut,33.8938,35.5018,00000,Regular,LBP
+C0049,2023-09-01,Surge Protector,1,39.99,39.99,Egypt,Cairo,Cairo,30.0444,31.2357,11511,Regular,EGP
+C0050,2023-09-05,Extension Cord,1,19.99,19.99,Morocco,Rabat,Rabat,34.0209,-6.8416,10000,Regular,MAD
+C0001,2023-09-10,Gaming Headset,1,149.99,149.99,United States,California,Los Angeles,34.0522,-118.2437,90210,Premium,USD
+C0002,2023-09-15,Mechanical Keyboard,1,99.99,99.99,Canada,Ontario,Toronto,43.6532,-79.3832,M5V 3A8,Premium,CAD
+C0003,2023-09-20,Monitor Stand,1,49.99,49.99,United Kingdom,England,London,51.5074,-0.1278,SW1A 1AA,Regular,GBP
+C0004,2023-09-25,Ergonomic Mouse,1,59.99,59.99,Germany,Bavaria,Munich,48.1351,11.5820,80331,Regular,EUR
+C0005,2023-10-01,Document Camera,1,179.99,179.99,France,Île-de-France,Paris,48.8566,2.3522,75001,Premium,EUR
+C0051,2023-10-05,Digital Drawing Tablet,1,199.99,199.99,South Africa,Western Cape,Cape Town,-33.9249,18.4241,8001,Premium,ZAR
+C0052,2023-10-10,Graphics Tablet Pen,2,29.99,59.98,Nigeria,Lagos,Lagos,6.5244,3.3792,100001,Regular,NGN
+C0053,2023-10-15,USB Graphics Adapter,1,79.99,79.99,Kenya,Nairobi,Nairobi,-1.2921,36.8219,00100,Regular,KES
+C0054,2023-10-20,HDMI Splitter,1,39.99,39.99,Ghana,Greater Accra,Accra,5.6037,-0.1870,00233,Regular,GHS
+C0055,2023-10-25,Audio Interface,1,149.99,149.99,Morocco,Casablanca,Casablanca,33.5731,-7.5898,20000,Premium,MAD
+C0056,2023-11-01,Studio Microphone,1,199.99,199.99,Egypt,Alexandria,Alexandria,31.2001,29.9187,21500,Premium,EGP
+C0057,2023-11-05,Microphone Stand,1,49.99,49.99,Tunisia,Tunis,Tunis,36.8065,10.1815,1000,Regular,TND
+C0058,2023-11-10,Pop Filter,2,19.99,39.98,Algeria,Algiers,Algiers,36.7538,3.0588,16000,Regular,DZD
+C0059,2023-11-15,Acoustic Foam,4,24.99,99.96,Libya,Tripoli,Tripoli,32.8872,13.1913,00000,Regular,LYD
+C0060,2023-11-20,Studio Monitor,2,129.99,259.98,Sudan,Khartoum,Khartoum,15.5007,32.5599,11111,Premium,SDG
+C0061,2023-11-25,Audio Cable,3,14.99,44.97,Ethiopia,Addis Ababa,Addis Ababa,9.1450,40.4897,1000,Regular,ETB
+C0062,2023-12-01,Lighting Kit,1,199.99,199.99,Rwanda,Kigali,Kigali,-1.9441,30.0619,00000,Premium,RWF
+C0063,2023-12-05,Camera Tripod,1,89.99,89.99,Tanzania,Dar es Salaam,Dar es Salaam,-6.7924,39.2083,11101,Regular,TZS
+C0064,2023-12-10,Camera Bag,1,59.99,59.99,Uganda,Kampala,Kampala,0.3476,32.5825,00000,Regular,UGX
+C0065,2023-12-15,Memory Card,2,29.99,59.98,Zambia,Lusaka,Lusaka,-15.3875,28.3228,10101,Regular,ZMW
+C0066,2023-12-20,Card Reader,1,19.99,19.99,Zimbabwe,Harare,Harare,-17.8252,31.0335,00000,Regular,ZWL
+C0067,2023-12-25,Lens Cleaning Kit,1,14.99,14.99,Botswana,Gaborone,Gaborone,-24.6282,25.9231,00000,Regular,BWP
+C0068,2024-01-01,Camera Strap,2,24.99,49.98,Namibia,Windhoek,Windhoek,-22.9576,18.4904,00000,Regular,NAD
+C0069,2024-01-05,Lens Filter,1,39.99,39.99,Lesotho,Maseru,Maseru,-29.3151,27.4869,100,Regular,LSL
+C0070,2024-01-10,Camera Remote,1,29.99,29.99,Swaziland,Mbabane,Mbabane,-26.3054,31.1367,H100,Regular,SZL
+C0071,2024-01-15,Photo Paper,3,19.99,59.97,Mauritius,Port Louis,Port Louis,-20.1609,57.5012,11328,Regular,MUR
+C0072,2024-01-20,Printer Ink,4,24.99,99.96,Seychelles,Victoria,Victoria,-4.6796,55.4920,00000,Regular,SCR
+C0073,2024-01-25,Scanner,1,149.99,149.99,Madagascar,Antananarivo,Antananarivo,-18.8792,47.5079,101,Premium,MGA
+C0074,2024-02-01,Label Printer,1,89.99,89.99,Comoros,Moroni,Moroni,-11.6455,43.3333,00000,Regular,KMF
+C0075,2024-02-05,Thermal Paper,2,14.99,29.98,Djibouti,Djibouti City,Djibouti City,11.8251,42.5903,00000,Regular,DJF
+C0076,2024-02-10,Barcode Scanner,1,79.99,79.99,Eritrea,Asmara,Asmara,15.3229,38.9251,00000,Regular,ERN
+C0077,2024-02-15,Point of Sale Terminal,1,299.99,299.99,Somalia,Mogadishu,Mogadishu,2.0469,45.3182,00000,Premium,SOS
+C0078,2024-02-20,Cash Drawer,1,129.99,129.99,South Sudan,Juba,Juba,4.8594,31.5713,00000,Premium,SSP
+C0079,2024-02-25,Receipt Printer,1,99.99,99.99,Central African Republic,Bangui,Bangui,4.3947,18.5582,00000,Regular,XAF
+C0080,2024-03-01,Inventory Scanner,1,199.99,199.99,Chad,N'Djamena,N'Djamena,12.1348,15.0557,00000,Premium,XAF
+C0081,2024-03-05,Digital Scale,1,89.99,89.99,Cameroon,Yaoundé,Yaoundé,3.8480,11.5021,00000,Regular,XAF
+C0082,2024-03-10,Calculator,2,19.99,39.98,Equatorial Guinea,Malabo,Malabo,3.7504,8.7371,00000,Regular,XAF
+C0083,2024-03-15,Desktop Computer,1,899.99,899.99,Gabon,Libreville,Libreville,0.4162,9.4673,00000,Premium,XAF
+C0084,2024-03-20,Computer Monitor,2,249.99,499.98,Republic of the Congo,Brazzaville,Brazzaville,-4.2634,15.2429,00000,Premium,XAF
+C0085,2024-03-25,Keyboard and Mouse Set,1,59.99,59.99,Democratic Republic of the Congo,Kinshasa,Kinshasa,-4.4419,15.2663,00000,Regular,CDF
+C0086,2024-04-01,Printer,1,179.99,179.99,Angola,Luanda,Luanda,-8.8390,13.2894,00000,Premium,AOA
+C0087,2024-04-05,Projector,1,599.99,599.99,Cape Verde,Praia,Praia,14.9218,-23.5087,7600,Premium,CVE
+C0088,2024-04-10,Projection Screen,1,199.99,199.99,Guinea-Bissau,Bissau,Bissau,11.8815,-15.6178,00000,Premium,XOF
+C0089,2024-04-15,Whiteboard,1,89.99,89.99,Guinea,Conakry,Conakry,9.6412,-13.5784,00000,Regular,GNF
+C0090,2024-04-20,Markers,5,4.99,24.95,Sierra Leone,Freetown,Freetown,8.4840,-13.2299,00000,Regular,SLE
+C0091,2024-04-25,Erasers,10,2.99,29.90,Liberia,Monrovia,Monrovia,6.2907,-10.7605,00000,Regular,LRD
+C0092,2024-05-01,Notebooks,3,9.99,29.97,Ivory Coast,Abidjan,Abidjan,5.3600,-4.0083,00000,Regular,XOF
+C0093,2024-05-05,Pens,12,1.99,23.88,Burkina Faso,Ouagadougou,Ouagadougou,12.3714,-1.5197,00000,Regular,XOF
+C0094,2024-05-10,Pencils,6,0.99,5.94,Mali,Bamako,Bamako,12.6392,-8.0029,00000,Regular,XOF
+C0095,2024-05-15,Stapler,1,14.99,14.99,Senegal,Dakar,Dakar,14.7167,-17.4677,00000,Regular,XOF
+C0096,2024-05-20,Paper Clips,2,3.99,7.98,Gambia,Banjul,Banjul,13.4549,-16.5790,00000,Regular,GMD
+C0097,2024-05-25,Rubber Bands,1,2.99,2.99,Mauritania,Nouakchott,Nouakchott,18.0735,-15.9582,00000,Regular,MRU
+C0098,2024-06-01,File Folders,5,2.99,14.95,Niger,Niamey,Niamey,13.5115,2.1254,00000,Regular,XOF
+C0099,2024-06-05,Binders,2,12.99,25.98,Togo,Lomé,Lomé,6.1728,1.2255,00000,Regular,XOF
+C0100,2024-06-10,Hole Punch,1,19.99,19.99,Benin,Porto-Novo,Porto-Novo,6.4969,2.6283,00000,Regular,XOF
+C0006,2024-06-15,Document Shredder,1,129.99,129.99,Australia,New South Wales,Sydney,-33.8688,151.2093,2000,Premium,AUD
+C0007,2024-06-20,Laminator,1,79.99,79.99,Japan,Tokyo,Tokyo,35.6762,139.6503,100-0001,Regular,JPY
+C0008,2024-06-25,Business Cards,100,0.99,99.00,Brazil,São Paulo,São Paulo,-23.5505,-46.6333,01310-100,Premium,BRL
+C0009,2024-07-01,Letterhead Paper,1,29.99,29.99,India,Maharashtra,Mumbai,19.0760,72.8777,400001,Regular,INR
+C0010,2024-07-05,Envelope,50,0.49,24.50,Mexico,Mexico City,Mexico City,19.4326,-99.1332,06000,Regular,MXN
+C0011,2024-07-10,Stamps,20,0.99,19.80,Singapore,Central Region,Singapore,1.3521,103.8198,018989,Regular,SGD
+C0012,2024-07-15,Mailing Labels,2,9.99,19.98,South Korea,Seoul,Seoul,37.5665,126.9780,04524,Regular,KRW
+C0013,2024-07-20,Packaging Tape,3,6.99,20.97,Netherlands,North Holland,Amsterdam,52.3676,4.9041,1012 WX,Regular,EUR
+C0014,2024-07-25,Bubble Wrap,1,19.99,19.99,Sweden,Stockholm,Stockholm,59.3293,18.0686,111 29,Regular,SEK
+C0015,2024-08-01,Shipping Boxes,10,2.99,29.90,Norway,Oslo,Oslo,59.9139,10.7522,0150,Regular,NOK

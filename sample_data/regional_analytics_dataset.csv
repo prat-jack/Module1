@@ -1,0 +1,116 @@
+customer_id,order_date,product_name,quantity,unit_price,total_amount,country,region,city,time_zone,population_density,economic_indicator,climate_zone,market_maturity
+C0001,2023-01-15,Wireless Headphones,2,89.99,179.98,United States,California,Los Angeles,PST,3200,High,Mediterranean,Mature
+C0002,2023-01-16,Smartphone Case,1,19.99,19.99,Canada,Ontario,Toronto,EST,4300,High,Continental,Mature
+C0003,2023-01-17,Coffee Maker,1,79.99,79.99,United Kingdom,England,London,GMT,5700,High,Oceanic,Mature
+C0004,2023-01-18,Running Shoes,1,89.99,89.99,Germany,Bavaria,Munich,CET,4700,High,Continental,Mature
+C0005,2023-01-19,Bluetooth Speaker,2,45.99,91.98,France,Île-de-France,Paris,CET,21000,High,Oceanic,Mature
+C0006,2023-02-01,Vacuum Cleaner,1,149.99,149.99,Australia,New South Wales,Sydney,AEST,2100,High,Subtropical,Mature
+C0007,2023-02-03,Power Bank,2,34.99,69.98,Japan,Tokyo,Tokyo,JST,6100,High,Humid_Continental,Mature
+C0008,2023-02-05,Casual T-Shirt,1,19.99,19.99,Brazil,São Paulo,São Paulo,BRT,7900,Medium,Subtropical,Emerging
+C0009,2023-02-07,Air Purifier,1,199.99,199.99,India,Maharashtra,Mumbai,IST,20700,Medium,Tropical,Emerging
+C0010,2023-02-10,Denim Jeans,1,59.99,59.99,Mexico,Mexico City,Mexico City,CST,5900,Medium,Subtropical,Emerging
+C0011,2023-02-15,Smart Watch,1,299.99,299.99,Singapore,Central Region,Singapore,SGT,8000,High,Tropical,Mature
+C0012,2023-02-20,Gaming Mouse,1,49.99,49.99,South Korea,Seoul,Seoul,KST,16000,High,Continental,Mature
+C0013,2023-02-25,Fitness Tracker,1,129.99,129.99,Netherlands,North Holland,Amsterdam,CET,5100,High,Oceanic,Mature
+C0014,2023-03-01,Wireless Keyboard,1,89.99,89.99,Sweden,Stockholm,Stockholm,CET,5000,High,Continental,Mature
+C0015,2023-03-05,Tablet Stand,2,19.99,39.98,Norway,Oslo,Oslo,CET,1400,High,Continental,Mature
+C0016,2023-03-10,External Monitor,1,329.99,329.99,Switzerland,Zurich,Zurich,CET,4700,High,Continental,Mature
+C0017,2023-03-15,Portable Speaker,1,79.99,79.99,Austria,Vienna,Vienna,CET,4300,High,Continental,Mature
+C0018,2023-03-20,Laptop Bag,1,59.99,59.99,Belgium,Brussels,Brussels,CET,7400,High,Oceanic,Mature
+C0019,2023-03-25,Webcam,1,69.99,69.99,Denmark,Capital Region,Copenhagen,CET,6800,High,Oceanic,Mature
+C0020,2023-04-01,Phone Tripod,1,24.99,24.99,Finland,Uusimaa,Helsinki,EET,3100,High,Continental,Mature
+C0021,2023-04-05,Noise Cancelling Headphones,1,199.99,199.99,Spain,Madrid,Madrid,CET,5300,High,Mediterranean,Mature
+C0022,2023-04-10,Portable Charger,2,34.99,69.98,Italy,Lazio,Rome,CET,2200,High,Mediterranean,Mature
+C0023,2023-04-15,Smart Home Hub,1,149.99,149.99,Portugal,Lisbon,Lisbon,WET,6500,High,Mediterranean,Mature
+C0024,2023-04-20,Wireless Earbuds,1,89.99,89.99,Poland,Mazovia,Warsaw,CET,3500,Medium,Continental,Developing
+C0025,2023-04-25,USB Hub,1,29.99,29.99,Czech Republic,Prague,Prague,CET,2600,Medium,Continental,Developing
+C0026,2023-05-01,Bluetooth Adapter,1,19.99,19.99,Hungary,Budapest,Budapest,CET,3300,Medium,Continental,Developing
+C0027,2023-05-05,Desk Organizer,1,39.99,39.99,Romania,Bucharest,Bucharest,EET,1900,Medium,Continental,Developing
+C0028,2023-05-10,Phone Ring Holder,3,9.99,29.97,Bulgaria,Sofia,Sofia,EET,1400,Medium,Continental,Developing
+C0029,2023-05-15,Screen Cleaning Kit,2,14.99,29.98,Croatia,Zagreb,Zagreb,CET,1300,Medium,Continental,Developing
+C0030,2023-05-20,Cable Management Box,1,24.99,24.99,Slovenia,Ljubljana,Ljubljana,CET,100,Medium,Continental,Developing
+C0031,2023-06-01,Laptop Cooling Pad,1,49.99,49.99,Estonia,Tallinn,Tallinn,EET,2900,Medium,Continental,Developing
+C0032,2023-06-05,Phone Car Holder,1,19.99,19.99,Latvia,Riga,Riga,EET,2400,Medium,Continental,Developing
+C0033,2023-06-10,Wireless Mouse Pad,1,34.99,34.99,Lithuania,Vilnius,Vilnius,EET,1400,Medium,Continental,Developing
+C0034,2023-06-15,USB Extension Cable,2,12.99,25.98,Slovakia,Bratislava,Bratislava,CET,1100,Medium,Continental,Developing
+C0035,2023-06-20,Phone Privacy Screen,1,29.99,29.99,Malta,Southern Region,Valletta,CET,1600,High,Mediterranean,Mature
+C0036,2023-06-25,Portable Hard Drive,1,89.99,89.99,Cyprus,Nicosia,Nicosia,EET,200,High,Mediterranean,Mature
+C0037,2023-07-01,Wireless Charging Stand,1,39.99,39.99,Iceland,Reykjavik,Reykjavik,GMT,200,High,Subarctic,Mature
+C0038,2023-07-05,Bluetooth Car Adapter,1,24.99,24.99,Turkey,Istanbul,Istanbul,TRT,2900,Medium,Mediterranean,Developing
+C0039,2023-07-10,Phone Lens Kit,1,19.99,19.99,Greece,Attica,Athens,EET,1900,Medium,Mediterranean,Developing
+C0040,2023-07-15,Laptop Security Lock,1,34.99,34.99,Israel,Tel Aviv,Tel Aviv,IST,7600,High,Mediterranean,Mature
+C0041,2023-07-20,USB Memory Stick,2,16.99,33.98,United Arab Emirates,Dubai,Dubai,GST,600,High,Desert,Emerging
+C0042,2023-07-25,Phone Stand,3,14.99,44.97,Saudi Arabia,Riyadh,Riyadh,AST,100,High,Desert,Emerging
+C0043,2023-08-01,Wireless Router,1,129.99,129.99,Qatar,Doha,Doha,AST,200,High,Desert,Emerging
+C0044,2023-08-05,Network Switch,1,79.99,79.99,Kuwait,Kuwait City,Kuwait City,AST,200,High,Desert,Emerging
+C0045,2023-08-10,Cable Tester,1,29.99,29.99,Oman,Muscat,Muscat,GST,100,Medium,Desert,Emerging
+C0046,2023-08-15,Ethernet Cable,5,8.99,44.95,Bahrain,Capital,Manama,AST,2000,High,Desert,Emerging
+C0047,2023-08-20,WiFi Extender,1,59.99,59.99,Jordan,Amman,Amman,AST,400,Medium,Mediterranean,Developing
+C0048,2023-08-25,Power Strip,2,24.99,49.98,Lebanon,Beirut,Beirut,EET,6000,Medium,Mediterranean,Developing
+C0049,2023-09-01,Surge Protector,1,39.99,39.99,Egypt,Cairo,Cairo,EET,1300,Low,Desert,Developing
+C0050,2023-09-05,Extension Cord,1,19.99,19.99,Morocco,Rabat,Rabat,WET,1500,Low,Mediterranean,Developing
+C0051,2023-09-10,Gaming Headset,1,149.99,149.99,South Africa,Western Cape,Cape Town,SAST,1600,Medium,Mediterranean,Developing
+C0052,2023-09-15,Digital Drawing Tablet,1,199.99,199.99,Nigeria,Lagos,Lagos,WAT,15000,Low,Tropical,Emerging
+C0053,2023-09-20,USB Graphics Adapter,1,79.99,79.99,Kenya,Nairobi,Nairobi,EAT,4500,Low,Tropical,Emerging
+C0054,2023-09-25,HDMI Splitter,1,39.99,39.99,Ghana,Greater Accra,Accra,GMT,1800,Low,Tropical,Emerging
+C0055,2023-10-01,Audio Interface,1,149.99,149.99,Morocco,Casablanca,Casablanca,WET,9400,Low,Mediterranean,Developing
+C0056,2023-10-05,Studio Microphone,1,199.99,199.99,Egypt,Alexandria,Alexandria,EET,2800,Low,Mediterranean,Developing
+C0057,2023-10-10,Microphone Stand,1,49.99,49.99,Tunisia,Tunis,Tunis,CET,2400,Low,Mediterranean,Developing
+C0058,2023-10-15,Pop Filter,2,19.99,39.98,Algeria,Algiers,Algiers,CET,2900,Low,Mediterranean,Developing
+C0059,2023-10-20,Acoustic Foam,4,24.99,99.96,Libya,Tripoli,Tripoli,EET,1100,Low,Mediterranean,Developing
+C0060,2023-10-25,Studio Monitor,2,129.99,259.98,Sudan,Khartoum,Khartoum,CAT,2800,Low,Desert,Emerging
+C0061,2023-11-01,Audio Cable,3,14.99,44.97,Ethiopia,Addis Ababa,Addis Ababa,EAT,5200,Low,Highland,Emerging
+C0062,2023-11-05,Lighting Kit,1,199.99,199.99,Rwanda,Kigali,Kigali,CAT,1100,Low,Highland,Emerging
+C0063,2023-11-10,Camera Tripod,1,89.99,89.99,Tanzania,Dar es Salaam,Dar es Salaam,EAT,3100,Low,Tropical,Emerging
+C0064,2023-11-15,Camera Bag,1,59.99,59.99,Uganda,Kampala,Kampala,EAT,1500,Low,Tropical,Emerging
+C0065,2023-11-20,Memory Card,2,29.99,59.98,Zambia,Lusaka,Lusaka,CAT,400,Low,Subtropical,Emerging
+C0066,2023-11-25,Card Reader,1,19.99,19.99,Zimbabwe,Harare,Harare,CAT,1500,Low,Subtropical,Emerging
+C0067,2023-12-01,Lens Cleaning Kit,1,14.99,14.99,Botswana,Gaborone,Gaborone,CAT,200,Medium,Semiarid,Emerging
+C0068,2023-12-05,Camera Strap,2,24.99,49.98,Namibia,Windhoek,Windhoek,CAT,300,Medium,Desert,Emerging
+C0069,2023-12-10,Lens Filter,1,39.99,39.99,Lesotho,Maseru,Maseru,SAST,400,Low,Highland,Emerging
+C0070,2023-12-15,Camera Remote,1,29.99,29.99,Swaziland,Mbabane,Mbabane,SAST,800,Low,Subtropical,Emerging
+C0071,2023-12-20,Photo Paper,3,19.99,59.97,Mauritius,Port Louis,Port Louis,MUT,600,Medium,Tropical,Developing
+C0072,2023-12-25,Printer Ink,4,24.99,99.96,Seychelles,Victoria,Victoria,SCT,400,Medium,Tropical,Developing
+C0073,2024-01-01,Scanner,1,149.99,149.99,Madagascar,Antananarivo,Antananarivo,EAT,1400,Low,Highland,Emerging
+C0074,2024-01-05,Label Printer,1,89.99,89.99,Comoros,Moroni,Moroni,EAT,1000,Low,Tropical,Emerging
+C0075,2024-01-10,Thermal Paper,2,14.99,29.98,Djibouti,Djibouti City,Djibouti City,EAT,1500,Low,Desert,Emerging
+C0076,2024-01-15,Barcode Scanner,1,79.99,79.99,Eritrea,Asmara,Asmara,EAT,800,Low,Highland,Emerging
+C0077,2024-01-20,Point of Sale Terminal,1,299.99,299.99,Somalia,Mogadishu,Mogadishu,EAT,1200,Low,Desert,Emerging
+C0078,2024-01-25,Cash Drawer,1,129.99,129.99,South Sudan,Juba,Juba,EAT,300,Low,Tropical,Emerging
+C0079,2024-02-01,Receipt Printer,1,99.99,99.99,Central African Republic,Bangui,Bangui,WAT,300,Low,Tropical,Emerging
+C0080,2024-02-05,Inventory Scanner,1,199.99,199.99,Chad,N'Djamena,N'Djamena,WAT,800,Low,Desert,Emerging
+C0081,2024-02-10,Digital Scale,1,89.99,89.99,Cameroon,Yaoundé,Yaoundé,WAT,2000,Low,Tropical,Emerging
+C0082,2024-02-15,Calculator,2,19.99,39.98,Equatorial Guinea,Malabo,Malabo,WAT,2200,Medium,Tropical,Emerging
+C0083,2024-02-20,Desktop Computer,1,899.99,899.99,Gabon,Libreville,Libreville,WAT,900,Medium,Tropical,Emerging
+C0084,2024-02-25,Computer Monitor,2,249.99,499.98,Republic of the Congo,Brazzaville,Brazzaville,WAT,1100,Low,Tropical,Emerging
+C0085,2024-03-01,Keyboard and Mouse Set,1,59.99,59.99,Democratic Republic of the Congo,Kinshasa,Kinshasa,WAT,12000,Low,Tropical,Emerging
+C0086,2024-03-05,Printer,1,179.99,179.99,Angola,Luanda,Luanda,WAT,2500,Low,Tropical,Emerging
+C0087,2024-03-10,Projector,1,599.99,599.99,Cape Verde,Praia,Praia,CVT,1300,Medium,Desert,Emerging
+C0088,2024-03-15,Projection Screen,1,199.99,199.99,Guinea-Bissau,Bissau,Bissau,GMT,400,Low,Tropical,Emerging
+C0089,2024-03-20,Whiteboard,1,89.99,89.99,Guinea,Conakry,Conakry,GMT,2800,Low,Tropical,Emerging
+C0090,2024-03-25,Markers,5,4.99,24.95,Sierra Leone,Freetown,Freetown,GMT,1200,Low,Tropical,Emerging
+C0091,2024-04-01,Erasers,10,2.99,29.90,Liberia,Monrovia,Monrovia,GMT,1500,Low,Tropical,Emerging
+C0092,2024-04-05,Notebooks,3,9.99,29.97,Ivory Coast,Abidjan,Abidjan,GMT,4700,Low,Tropical,Emerging
+C0093,2024-04-10,Pens,12,1.99,23.88,Burkina Faso,Ouagadougou,Ouagadougou,GMT,2400,Low,Semiarid,Emerging
+C0094,2024-04-15,Pencils,6,0.99,5.94,Mali,Bamako,Bamako,GMT,1800,Low,Semiarid,Emerging
+C0095,2024-04-20,Stapler,1,14.99,14.99,Senegal,Dakar,Dakar,GMT,5000,Low,Semiarid,Emerging
+C0096,2024-04-25,Paper Clips,2,3.99,7.98,Gambia,Banjul,Banjul,GMT,2400,Low,Tropical,Emerging
+C0097,2024-05-01,Rubber Bands,1,2.99,2.99,Mauritania,Nouakchott,Nouakchott,GMT,1100,Low,Desert,Emerging
+C0098,2024-05-05,File Folders,5,2.99,14.95,Niger,Niamey,Niamey,WAT,1100,Low,Desert,Emerging
+C0099,2024-05-10,Binders,2,12.99,25.98,Togo,Lomé,Lomé,GMT,1400,Low,Tropical,Emerging
+C0100,2024-05-15,Hole Punch,1,19.99,19.99,Benin,Porto-Novo,Porto-Novo,WAT,1200,Low,Tropical,Emerging
+C0001,2024-05-20,Gaming Controller,1,59.99,59.99,United States,California,Los Angeles,PST,3200,High,Mediterranean,Mature
+C0002,2024-05-25,VR Headset,1,399.99,399.99,Canada,Ontario,Toronto,EST,4300,High,Continental,Mature
+C0003,2024-06-01,Smart TV,1,799.99,799.99,United Kingdom,England,London,GMT,5700,High,Oceanic,Mature
+C0004,2024-06-05,Streaming Device,1,49.99,49.99,Germany,Bavaria,Munich,CET,4700,High,Continental,Mature
+C0005,2024-06-10,Soundbar,1,199.99,199.99,France,Île-de-France,Paris,CET,21000,High,Oceanic,Mature
+C0006,2024-06-15,Smart Doorbell,1,149.99,149.99,Australia,New South Wales,Sydney,AEST,2100,High,Subtropical,Mature
+C0007,2024-06-20,Security Camera,2,89.99,179.98,Japan,Tokyo,Tokyo,JST,6100,High,Humid_Continental,Mature
+C0008,2024-06-25,Motion Sensor,3,29.99,89.97,Brazil,São Paulo,São Paulo,BRT,7900,Medium,Subtropical,Emerging
+C0009,2024-07-01,Smart Thermostat,1,199.99,199.99,India,Maharashtra,Mumbai,IST,20700,Medium,Tropical,Emerging
+C0010,2024-07-05,Smart Lock,1,179.99,179.99,Mexico,Mexico City,Mexico City,CST,5900,Medium,Subtropical,Emerging
+C0011,2024-07-10,Robot Vacuum,1,399.99,399.99,Singapore,Central Region,Singapore,SGT,8000,High,Tropical,Mature
+C0012,2024-07-15,Air Quality Monitor,1,129.99,129.99,South Korea,Seoul,Seoul,KST,16000,High,Continental,Mature
+C0013,2024-07-20,Smart Plug,4,19.99,79.96,Netherlands,North Holland,Amsterdam,CET,5100,High,Oceanic,Mature
+C0014,2024-07-25,LED Smart Bulbs,6,24.99,149.94,Sweden,Stockholm,Stockholm,CET,5000,High,Continental,Mature
+C0015,2024-08-01,Smart Switch,2,39.99,79.98,Norway,Oslo,Oslo,CET,1400,High,Continental,Mature

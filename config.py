@@ -2,8 +2,11 @@
 Configuration settings for the Customer Analytics Dashboard
 """
 
+import os
+import logging
 import streamlit as st
 from pathlib import Path
+from typing import Dict, Any
 
 class Config:
     """Application configuration settings"""
@@ -13,10 +16,45 @@ class Config:
     APP_VERSION = "1.0.0"
     APP_DESCRIPTION = "Advanced e-commerce customer intelligence platform"
     
+    # Environment detection
+    ENVIRONMENT = os.getenv('ENVIRONMENT', 'development')
+    DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
+    
+    # Streamlit configuration
+    STREAMLIT_PORT = int(os.getenv('PORT', 8501))
+    STREAMLIT_HOST = os.getenv('HOST', '0.0.0.0')
+    
     # Performance settings
-    MAX_RECORDS = 100000
-    CHUNK_SIZE = 10000
-    CACHE_TTL = 3600  # 1 hour
+    MAX_RECORDS = int(os.getenv('MAX_RECORDS', 100000))
+    CHUNK_SIZE = int(os.getenv('CHUNK_SIZE', 10000))
+    CACHE_TTL = int(os.getenv('CACHE_TTL', 3600))  # 1 hour
+    MAX_FILE_SIZE_MB = int(os.getenv('MAX_FILE_SIZE_MB', 200))
+    MAX_MEMORY_USAGE_MB = int(os.getenv('MAX_MEMORY_USAGE_MB', 1000))
+    
+    # Security settings
+    ENABLE_AUTH = os.getenv('ENABLE_AUTH', 'False').lower() == 'true'
+    SECRET_KEY = os.getenv('SECRET_KEY', 'your-secret-key-change-in-production')
+    SESSION_TIMEOUT = int(os.getenv('SESSION_TIMEOUT', 3600))  # 1 hour
+    
+    # Data privacy
+    ANONYMIZE_DATA = os.getenv('ANONYMIZE_DATA', 'False').lower() == 'true'
+    DATA_RETENTION_DAYS = int(os.getenv('DATA_RETENTION_DAYS', 90))
+    ENABLE_DATA_ENCRYPTION = os.getenv('ENABLE_DATA_ENCRYPTION', 'False').lower() == 'true'
+    
+    # Logging configuration
+    LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO')
+    LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    LOG_FILE = os.getenv('LOG_FILE', 'app.log')
+    ENABLE_FILE_LOGGING = os.getenv('ENABLE_FILE_LOGGING', 'True').lower() == 'true'
+    
+    # Monitoring and analytics
+    ENABLE_TELEMETRY = os.getenv('ENABLE_TELEMETRY', 'False').lower() == 'true'
+    ANALYTICS_ENDPOINT = os.getenv('ANALYTICS_ENDPOINT', '')
+    HEALTH_CHECK_INTERVAL = int(os.getenv('HEALTH_CHECK_INTERVAL', 300))  # 5 minutes
+    
+    # Error handling
+    SENTRY_DSN = os.getenv('SENTRY_DSN', '')
+    ENABLE_ERROR_REPORTING = bool(SENTRY_DSN)
     
     # Analytics settings
     RFM_QUANTILES = 5
@@ -81,7 +119,7 @@ class Config:
     
     # File settings
     ALLOWED_EXTENSIONS = ['csv']
-    MAX_FILE_SIZE = 50 * 1024 * 1024  # 50MB
+    MAX_FILE_SIZE = MAX_FILE_SIZE_MB * 1024 * 1024  # Convert MB to bytes
     
     # Export settings
     EXPORT_FORMATS = ['csv', 'excel']
@@ -114,6 +152,71 @@ class Config:
             })
         
         return base_config
+    
+    @classmethod
+    def get_logging_config(cls) -> Dict[str, Any]:
+        """Get logging configuration"""
+        config = {
+            'version': 1,
+            'disable_existing_loggers': False,
+            'formatters': {
+                'standard': {
+                    'format': cls.LOG_FORMAT
+                },
+            },
+            'handlers': {
+                'console': {
+                    'level': cls.LOG_LEVEL,
+                    'class': 'logging.StreamHandler',
+                    'formatter': 'standard',
+                },
+            },
+            'loggers': {
+                '': {
+                    'handlers': ['console'],
+                    'level': cls.LOG_LEVEL,
+                    'propagate': False
+                }
+            }
+        }
+        
+        if cls.ENABLE_FILE_LOGGING:
+            config['handlers']['file'] = {
+                'level': cls.LOG_LEVEL,
+                'class': 'logging.FileHandler',
+                'filename': cls.LOG_FILE,
+                'formatter': 'standard',
+            }
+            config['loggers']['']['handlers'].append('file')
+        
+        return config
+    
+    @classmethod
+    def is_production(cls) -> bool:
+        """Check if running in production environment"""
+        return cls.ENVIRONMENT.lower() == 'production'
+    
+    @classmethod
+    def validate_config(cls) -> bool:
+        """Validate configuration settings"""
+        errors = []
+        
+        if cls.is_production():
+            if cls.SECRET_KEY == 'your-secret-key-change-in-production':
+                errors.append("SECRET_KEY must be changed in production")
+            
+            if cls.DEBUG:
+                errors.append("DEBUG should be False in production")
+            
+            if not cls.ENABLE_AUTH and cls.ENVIRONMENT == 'production':
+                errors.append("Authentication should be enabled in production")
+        
+        if errors:
+            for error in errors:
+                logging.error(f"Configuration error: {error}")
+            return False
+        
+        return True
 
 class ErrorHandler:
     """Centralized error handling"""

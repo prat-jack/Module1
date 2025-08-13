@@ -16,6 +16,9 @@ class DataProcessor:
             'customer_id', 'order_date', 'product_name', 
             'quantity', 'unit_price', 'total_amount'
         ]
+        self.optional_columns = [
+            'country', 'region', 'city'
+        ]
         
     def load_and_validate_data(self, uploaded_file) -> Optional[pd.DataFrame]:
         """
@@ -80,6 +83,12 @@ class DataProcessor:
         
         df['customer_id'] = df['customer_id'].astype(str)
         df['product_name'] = df['product_name'].astype(str)
+        
+        # Handle optional geographic columns
+        for col in self.optional_columns:
+            if col in df.columns:
+                df[col] = df[col].astype(str)
+                df[col] = df[col].replace(['nan', 'NaN', 'None', ''], 'Unknown')
         
         numeric_columns = ['quantity', 'unit_price', 'total_amount']
         for col in numeric_columns:
@@ -197,6 +206,30 @@ class DataProcessor:
             'Wireless Earbuds', 'Smart Watch', 'Fitness Tracker', 'Router'
         ]
         
+        countries = ['United States', 'Canada', 'United Kingdom', 'Germany', 'France', 
+                    'Australia', 'Japan', 'Brazil', 'India', 'Mexico']
+        regions = {
+            'United States': ['California', 'Texas', 'New York', 'Florida', 'Illinois'],
+            'Canada': ['Ontario', 'Quebec', 'British Columbia', 'Alberta', 'Manitoba'],
+            'United Kingdom': ['England', 'Scotland', 'Wales', 'Northern Ireland'],
+            'Germany': ['Bavaria', 'North Rhine-Westphalia', 'Baden-Württemberg', 'Lower Saxony'],
+            'France': ['Île-de-France', 'Auvergne-Rhône-Alpes', 'Occitanie', 'Nouvelle-Aquitaine'],
+            'Australia': ['New South Wales', 'Victoria', 'Queensland', 'Western Australia'],
+            'Japan': ['Tokyo', 'Osaka', 'Kanagawa', 'Aichi', 'Saitama'],
+            'Brazil': ['São Paulo', 'Rio de Janeiro', 'Minas Gerais', 'Bahia'],
+            'India': ['Maharashtra', 'Karnataka', 'Tamil Nadu', 'Delhi', 'Gujarat'],
+            'Mexico': ['Mexico City', 'Jalisco', 'Nuevo León', 'Puebla', 'Guanajuato']
+        }
+        cities = {
+            'California': ['Los Angeles', 'San Francisco', 'San Diego', 'San Jose'],
+            'Texas': ['Houston', 'Dallas', 'Austin', 'San Antonio'],
+            'New York': ['New York City', 'Buffalo', 'Rochester', 'Syracuse'],
+            'Florida': ['Miami', 'Tampa', 'Orlando', 'Jacksonville'],
+            'Ontario': ['Toronto', 'Ottawa', 'Hamilton', 'London'],
+            'England': ['London', 'Manchester', 'Birmingham', 'Liverpool'],
+            'Bavaria': ['Munich', 'Nuremberg', 'Augsburg', 'Würzburg']
+        }
+        
         data = []
         start_date = datetime(2023, 1, 1)
         end_date = datetime(2024, 8, 1)
@@ -211,13 +244,21 @@ class DataProcessor:
             unit_price = round(np.random.uniform(10, 500), 2)
             total_amount = round(quantity * unit_price, 2)
             
+            # Generate geographic data
+            country = np.random.choice(countries)
+            region = np.random.choice(regions.get(country, ['Unknown']))
+            city = np.random.choice(cities.get(region, [f'{region} City']))
+            
             data.append({
                 'customer_id': customer_id,
                 'order_date': order_date.strftime('%Y-%m-%d'),
                 'product_name': product_name,
                 'quantity': quantity,
                 'unit_price': unit_price,
-                'total_amount': total_amount
+                'total_amount': total_amount,
+                'country': country,
+                'region': region,
+                'city': city
             })
         
         return pd.DataFrame(data)

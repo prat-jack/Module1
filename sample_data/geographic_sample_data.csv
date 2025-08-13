@@ -1,0 +1,120 @@
+customer_id,order_date,product_name,quantity,unit_price,total_amount,country,region,city
+C0001,2023-01-15,Wireless Headphones,2,89.99,179.98,United States,California,Los Angeles
+C0002,2023-01-16,Smartphone Case,1,19.99,19.99,Canada,Ontario,Toronto
+C0003,2023-01-17,Coffee Maker,1,79.99,79.99,United Kingdom,England,London
+C0004,2023-01-18,Running Shoes,1,89.99,89.99,Germany,Bavaria,Munich
+C0005,2023-01-19,Bluetooth Speaker,2,45.99,91.98,France,Île-de-France,Paris
+C0001,2023-01-25,USB-C Cable,3,12.99,38.97,United States,California,Los Angeles
+C0006,2023-02-01,Vacuum Cleaner,1,149.99,149.99,Australia,New South Wales,Sydney
+C0007,2023-02-03,Power Bank,2,34.99,69.98,Japan,Tokyo,Tokyo
+C0008,2023-02-05,Casual T-Shirt,1,19.99,19.99,Brazil,São Paulo,São Paulo
+C0009,2023-02-07,Air Purifier,1,199.99,199.99,India,Maharashtra,Mumbai
+C0010,2023-02-10,Denim Jeans,1,59.99,59.99,Mexico,Mexico City,Mexico City
+C0002,2023-02-15,Wireless Charger,1,29.99,29.99,Canada,Ontario,Toronto
+C0011,2023-02-20,Kitchen Scale,2,25.99,51.98,United States,Texas,Houston
+C0012,2023-02-25,LED Desk Lamp,1,39.99,39.99,United Kingdom,Scotland,Edinburgh
+C0013,2023-03-01,Baseball Cap,3,24.99,74.97,Germany,North Rhine-Westphalia,Cologne
+C0014,2023-03-05,Sunglasses,1,49.99,49.99,France,Auvergne-Rhône-Alpes,Lyon
+C0015,2023-03-10,Screen Protector,4,9.99,39.96,Australia,Victoria,Melbourne
+C0016,2023-03-12,Car Phone Mount,2,24.99,49.98,Japan,Osaka,Osaka
+C0017,2023-03-15,Business Strategy Book,1,24.99,24.99,Brazil,Rio de Janeiro,Rio de Janeiro
+C0018,2023-03-18,Cookbook,1,29.99,29.99,India,Karnataka,Bangalore
+C0019,2023-03-20,Fiction Novel,2,14.99,29.98,Mexico,Jalisco,Guadalajara
+C0020,2023-03-25,Self-Help Guide,1,19.99,19.99,United States,New York,New York City
+C0003,2023-04-01,Storage Bins,3,15.99,47.97,United Kingdom,England,London
+C0021,2023-04-05,Wireless Headphones,1,89.99,89.99,Canada,Quebec,Montreal
+C0022,2023-04-10,Smartphone Case,2,19.99,39.98,Germany,Baden-Württemberg,Stuttgart
+C0023,2023-04-15,Coffee Maker,1,79.99,79.99,France,Occitanie,Toulouse
+C0024,2023-04-20,Running Shoes,1,89.99,89.99,Australia,Queensland,Brisbane
+C0025,2023-04-25,Bluetooth Speaker,1,45.99,45.99,Japan,Kanagawa,Yokohama
+C0026,2023-05-01,USB-C Cable,5,12.99,64.95,Brazil,Minas Gerais,Belo Horizonte
+C0027,2023-05-05,Vacuum Cleaner,1,149.99,149.99,India,Tamil Nadu,Chennai
+C0028,2023-05-10,Power Bank,2,34.99,69.98,Mexico,Nuevo León,Monterrey
+C0029,2023-05-15,Casual T-Shirt,3,19.99,59.97,United States,Florida,Miami
+C0030,2023-05-20,Air Purifier,1,199.99,199.99,United Kingdom,Wales,Cardiff
+C0001,2023-05-25,Denim Jeans,1,59.99,59.99,United States,California,Los Angeles
+C0031,2023-06-01,Wireless Charger,2,29.99,59.98,Canada,British Columbia,Vancouver
+C0032,2023-06-05,Kitchen Scale,1,25.99,25.99,Germany,Lower Saxony,Hannover
+C0033,2023-06-10,LED Desk Lamp,2,39.99,79.98,France,Nouvelle-Aquitaine,Bordeaux
+C0034,2023-06-15,Baseball Cap,1,24.99,24.99,Australia,Western Australia,Perth
+C0035,2023-06-20,Sunglasses,2,49.99,99.98,Japan,Aichi,Nagoya
+C0036,2023-06-25,Screen Protector,3,9.99,29.97,Brazil,Bahia,Salvador
+C0037,2023-07-01,Car Phone Mount,1,24.99,24.99,India,Delhi,New Delhi
+C0038,2023-07-05,Business Strategy Book,2,24.99,49.98,Mexico,Puebla,Puebla
+C0039,2023-07-10,Cookbook,1,29.99,29.99,United States,Illinois,Chicago
+C0040,2023-07-15,Fiction Novel,1,14.99,14.99,United Kingdom,Northern Ireland,Belfast
+C0002,2023-07-20,Self-Help Guide,3,19.99,59.97,Canada,Ontario,Toronto
+C0041,2023-07-25,Wireless Headphones,1,89.99,89.99,Germany,Bavaria,Munich
+C0042,2023-08-01,Smartphone Case,1,19.99,19.99,France,Île-de-France,Paris
+C0043,2023-08-05,Coffee Maker,1,79.99,79.99,Australia,New South Wales,Sydney
+C0044,2023-08-10,Running Shoes,2,89.99,179.98,Japan,Tokyo,Tokyo
+C0045,2023-08-15,Bluetooth Speaker,1,45.99,45.99,Brazil,São Paulo,São Paulo
+C0046,2023-08-20,USB-C Cable,2,12.99,25.98,India,Maharashtra,Mumbai
+C0047,2023-08-25,Vacuum Cleaner,1,149.99,149.99,Mexico,Mexico City,Mexico City
+C0048,2023-09-01,Power Bank,3,34.99,104.97,United States,Texas,Houston
+C0049,2023-09-05,Casual T-Shirt,2,19.99,39.98,United Kingdom,Scotland,Edinburgh
+C0050,2023-09-10,Air Purifier,1,199.99,199.99,Canada,Alberta,Calgary
+C0003,2023-09-15,Denim Jeans,1,59.99,59.99,United Kingdom,England,London
+C0051,2023-09-20,Wireless Charger,1,29.99,29.99,Germany,North Rhine-Westphalia,Cologne
+C0052,2023-09-25,Kitchen Scale,2,25.99,51.98,France,Auvergne-Rhône-Alpes,Lyon
+C0053,2023-10-01,LED Desk Lamp,1,39.99,39.99,Australia,Victoria,Melbourne
+C0054,2023-10-05,Baseball Cap,4,24.99,99.96,Japan,Osaka,Osaka
+C0055,2023-10-10,Sunglasses,1,49.99,49.99,Brazil,Rio de Janeiro,Rio de Janeiro
+C0056,2023-10-15,Screen Protector,2,9.99,19.98,India,Karnataka,Bangalore
+C0057,2023-10-20,Car Phone Mount,1,24.99,24.99,Mexico,Jalisco,Guadalajara
+C0058,2023-10-25,Business Strategy Book,1,24.99,24.99,United States,New York,New York City
+C0059,2023-11-01,Cookbook,2,29.99,59.98,United Kingdom,England,London
+C0060,2023-11-05,Fiction Novel,3,14.99,44.97,Canada,Quebec,Montreal
+C0001,2023-11-10,Self-Help Guide,1,19.99,19.99,United States,California,Los Angeles
+C0061,2023-11-15,Wireless Headphones,1,89.99,89.99,Germany,Baden-Württemberg,Stuttgart
+C0062,2023-11-20,Smartphone Case,3,19.99,59.97,France,Occitanie,Toulouse
+C0063,2023-11-25,Coffee Maker,1,79.99,79.99,Australia,Queensland,Brisbane
+C0064,2023-12-01,Running Shoes,1,89.99,89.99,Japan,Kanagawa,Yokohama
+C0065,2023-12-05,Bluetooth Speaker,2,45.99,91.98,Brazil,Minas Gerais,Belo Horizonte
+C0066,2023-12-10,USB-C Cable,1,12.99,12.99,India,Tamil Nadu,Chennai
+C0067,2023-12-15,Vacuum Cleaner,1,149.99,149.99,Mexico,Nuevo León,Monterrey
+C0068,2023-12-20,Power Bank,2,34.99,69.98,United States,Florida,Miami
+C0069,2023-12-25,Casual T-Shirt,1,19.99,19.99,United Kingdom,Wales,Cardiff
+C0070,2024-01-01,Air Purifier,1,199.99,199.99,Canada,British Columbia,Vancouver
+C0002,2024-01-05,Denim Jeans,2,59.99,119.98,Canada,Ontario,Toronto
+C0071,2024-01-10,Wireless Charger,1,29.99,29.99,Germany,Lower Saxony,Hannover
+C0072,2024-01-15,Kitchen Scale,3,25.99,77.97,France,Nouvelle-Aquitaine,Bordeaux
+C0073,2024-01-20,LED Desk Lamp,1,39.99,39.99,Australia,Western Australia,Perth
+C0074,2024-01-25,Baseball Cap,2,24.99,49.98,Japan,Aichi,Nagoya
+C0075,2024-02-01,Sunglasses,1,49.99,49.99,Brazil,Bahia,Salvador
+C0076,2024-02-05,Screen Protector,4,9.99,39.96,India,Delhi,New Delhi
+C0077,2024-02-10,Car Phone Mount,1,24.99,24.99,Mexico,Puebla,Puebla
+C0078,2024-02-15,Business Strategy Book,2,24.99,49.98,United States,Illinois,Chicago
+C0079,2024-02-20,Cookbook,1,29.99,29.99,United Kingdom,Northern Ireland,Belfast
+C0080,2024-02-25,Fiction Novel,1,14.99,14.99,Canada,Ontario,Ottawa
+C0003,2024-03-01,Self-Help Guide,3,19.99,59.97,United Kingdom,England,London
+C0081,2024-03-05,Wireless Headphones,1,89.99,89.99,Germany,Bavaria,Munich
+C0082,2024-03-10,Smartphone Case,2,19.99,39.98,France,Île-de-France,Paris
+C0083,2024-03-15,Coffee Maker,1,79.99,79.99,Australia,New South Wales,Sydney
+C0084,2024-03-20,Running Shoes,1,89.99,89.99,Japan,Tokyo,Tokyo
+C0085,2024-03-25,Bluetooth Speaker,3,45.99,137.97,Brazil,São Paulo,São Paulo
+C0086,2024-04-01,USB-C Cable,2,12.99,25.98,India,Maharashtra,Mumbai
+C0087,2024-04-05,Vacuum Cleaner,1,149.99,149.99,Mexico,Mexico City,Mexico City
+C0088,2024-04-10,Power Bank,1,34.99,34.99,United States,Texas,Dallas
+C0089,2024-04-15,Casual T-Shirt,2,19.99,39.98,United Kingdom,Scotland,Glasgow
+C0090,2024-04-20,Air Purifier,1,199.99,199.99,Canada,Alberta,Edmonton
+C0001,2024-04-25,Denim Jeans,1,59.99,59.99,United States,California,San Francisco
+C0091,2024-05-01,Wireless Charger,2,29.99,59.98,Germany,North Rhine-Westphalia,Düsseldorf
+C0092,2024-05-05,Kitchen Scale,1,25.99,25.99,France,Auvergne-Rhône-Alpes,Marseille
+C0093,2024-05-10,LED Desk Lamp,3,39.99,119.97,Australia,Victoria,Adelaide
+C0094,2024-05-15,Baseball Cap,1,24.99,24.99,Japan,Osaka,Kyoto
+C0095,2024-05-20,Sunglasses,2,49.99,99.98,Brazil,Rio de Janeiro,Niterói
+C0096,2024-05-25,Screen Protector,1,9.99,9.99,India,Karnataka,Mysore
+C0097,2024-06-01,Car Phone Mount,3,24.99,74.97,Mexico,Jalisco,Zapopan
+C0098,2024-06-05,Business Strategy Book,1,24.99,24.99,United States,New York,Buffalo
+C0099,2024-06-10,Cookbook,2,29.99,59.98,United Kingdom,England,Manchester
+C0100,2024-06-15,Fiction Novel,1,14.99,14.99,Canada,Quebec,Quebec City
+C0002,2024-06-20,Self-Help Guide,1,19.99,19.99,Canada,Ontario,Toronto
+C0101,2024-06-25,Wireless Headphones,2,89.99,179.98,Germany,Baden-Württemberg,Mannheim
+C0102,2024-07-01,Smartphone Case,1,19.99,19.99,France,Occitanie,Montpellier
+C0103,2024-07-05,Coffee Maker,1,79.99,79.99,Australia,Queensland,Gold Coast
+C0104,2024-07-10,Running Shoes,3,89.99,269.97,Japan,Kanagawa,Kawasaki
+C0105,2024-07-15,Bluetooth Speaker,1,45.99,45.99,Brazil,Minas Gerais,Uberlândia
+C0106,2024-07-20,USB-C Cable,2,12.99,25.98,India,Tamil Nadu,Coimbatore
+C0107,2024-07-25,Vacuum Cleaner,1,149.99,149.99,Mexico,Nuevo León,Guadalupe
+C0108,2024-08-01,Power Bank,1,34.99,34.99,United States,Florida,Orlando
