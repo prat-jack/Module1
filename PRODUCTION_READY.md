@@ -185,15 +185,12 @@ customer-analytics-dashboard/
 Set these environment variables in Streamlit Cloud:
 
 ```toml
-ENVIRONMENT = "production"
-DEBUG = false
-ENABLE_AUTH = true
-SECRET_KEY = "your-production-secret-key-here"
-ANONYMIZE_DATA = true
-ENABLE_TELEMETRY = true
-LOG_LEVEL = "INFO"
-MAX_FILE_SIZE_MB = 200
-MAX_RECORDS = 100000
+production_secret_key = "production-secret-key-here"
+anonymize_data = true
+enable_telemetry = true
+log_level = "INFO"
+max_file_size_mb = 200
+max_records = 100000
 ```
 
 ### Step 4: Deploy
@@ -260,4 +257,7 @@ The Customer Analytics Dashboard has been successfully enhanced with all enterpr
 
 ---
 
-**🚀 Ready to deploy? Your production-grade Customer Analytics Dashboard awaits!**
+**🚀 Ready to deplENVIRONMENT = "production"
+DEBUG = false
+ENABLE_AUTH = true
+SECRET_KEY = "your-oy? Your production-grade Customer Analytics Dashboard awaits!**
