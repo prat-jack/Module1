@@ -23,8 +23,12 @@ from auth import require_authentication, init_auth_session
 logging.basicConfig(**Config.get_logging_config())
 logger = logging.getLogger(__name__)
 
-# Validate configuration
-if not Config.validate_config():
+# Validate configuration with caching
+@st.cache_data
+def validate_app_config():
+    return Config.validate_config()
+
+if not validate_app_config():
     st.error("❌ Configuration validation failed. Please check logs.")
     st.stop()
 
@@ -35,10 +39,14 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Initialize authentication
-init_auth_session()
+# Initialize authentication with session state
+if 'auth_initialized' not in st.session_state:
+    init_auth_session()
+    st.session_state.auth_initialized = True
+
 require_authentication()
 
+@st.cache_data
 def load_custom_css():
     st.markdown("""
     <style>
@@ -461,13 +469,14 @@ def main():
         mask = (df['order_date'].dt.date >= start_date) & (df['order_date'].dt.date <= end_date)
         filtered_df = df[mask].copy()
         
-        def create_analytics():
-            customer_analytics = CustomerAnalytics(filtered_df)
-            sales_analytics = SalesAnalytics(filtered_df)
-            geographic_analytics = GeographicAnalytics(filtered_df)
+        @st.cache_resource
+        def create_analytics(_df):
+            customer_analytics = CustomerAnalytics(_df)
+            sales_analytics = SalesAnalytics(_df)
+            geographic_analytics = GeographicAnalytics(_df)
             return customer_analytics, sales_analytics, geographic_analytics
         
-        analytics_result = safe_execute(create_analytics, "analytics initialization")
+        analytics_result = safe_execute(lambda: create_analytics(filtered_df), "analytics initialization")
         
         if analytics_result:
             customer_analytics, sales_analytics, geographic_analytics = analytics_result

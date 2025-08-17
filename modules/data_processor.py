@@ -31,6 +31,15 @@ class DataProcessor:
             pd.DataFrame or None if validation fails
         """
         try:
+            # Check file size before processing
+            file_size_mb = uploaded_file.size / (1024 * 1024)
+            if file_size_mb > 200:  # 200MB limit
+                st.error(f"❌ File too large: {file_size_mb:.1f}MB. Maximum size is 200MB.")
+                return None
+            
+            if file_size_mb > 50:
+                st.warning(f"⚠️ Large file detected: {file_size_mb:.1f}MB. Loading may take longer.")
+            
             df = pd.read_csv(uploaded_file)
             
             if self._validate_columns(df):
