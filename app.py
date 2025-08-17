@@ -455,14 +455,17 @@ def main():
     company_display = f'<div class="company-brand company-name">{company_name}</div>' if company_name else ''
     logo_display = f'<img src="{logo_url}" alt="Company Logo" class="company-logo" style="max-height: 60px; margin-bottom: 10px;" />' if logo_url else ''
     
-    st.markdown(f'''
+    # Create header HTML
+    header_html = f'''
     <div class="executive-header">
         {company_display}
         {logo_display}
         <h1 class="executive-title">📊 Executive Analytics Dashboard</h1>
         <p class="executive-subtitle">Strategic Customer Intelligence & Business Performance Platform</p>
     </div>
-    ''', unsafe_allow_html=True)
+    '''
+    
+    st.markdown(header_html, unsafe_allow_html=True)
     
     if uploaded_file is not None and df is not None and date_range is not None and len(date_range) == 2:
         start_date, end_date = date_range
