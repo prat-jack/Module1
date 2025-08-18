@@ -19,6 +19,14 @@ from config import Config
 from utils import performance_monitor, safe_execute, SecurityUtils, PerformanceMonitor
 from auth import require_authentication, init_auth_session
 
+# MUST be first Streamlit command
+st.set_page_config(
+    page_title=Config.APP_NAME,
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 # Configure logging
 logging.basicConfig(**Config.get_logging_config())
 logger = logging.getLogger(__name__)
@@ -31,13 +39,6 @@ def validate_app_config():
 if not validate_app_config():
     st.error("❌ Configuration validation failed. Please check logs.")
     st.stop()
-
-st.set_page_config(
-    page_title=Config.APP_NAME,
-    page_icon="📊",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 # Initialize authentication with session state
 if 'auth_initialized' not in st.session_state:
@@ -331,7 +332,7 @@ def load_custom_css():
 
 @performance_monitor("main_application")
 def main():
-    # Load custom CSS styling
+    # Load custom CSS styling first
     load_custom_css()
     
     # Log application start
@@ -455,16 +456,17 @@ def main():
     company_display = f'<div class="company-brand company-name">{company_name}</div>' if company_name else ''
     logo_display = f'<img src="{logo_url}" alt="Company Logo" class="company-logo" style="max-height: 60px; margin-bottom: 10px;" />' if logo_url else ''
     
-    # Create header HTML
-    header_html = f'''
-    <div class="executive-header">
-        {company_display}
-        {logo_display}
-        <h1 class="executive-title">📊 Executive Analytics Dashboard</h1>
-        <p class="executive-subtitle">Strategic Customer Intelligence & Business Performance Platform</p>
-    </div>
-    '''
+    # Create header HTML - ensure proper rendering
+    header_html = f"""
+<div class="executive-header">
+    {company_display}
+    {logo_display}
+    <h1 class="executive-title">📊 Executive Analytics Dashboard</h1>
+    <p class="executive-subtitle">Strategic Customer Intelligence & Business Performance Platform</p>
+</div>
+"""
     
+    # Render header with HTML enabled
     st.markdown(header_html, unsafe_allow_html=True)
     
     if uploaded_file is not None and df is not None and date_range is not None and len(date_range) == 2:

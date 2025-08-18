@@ -23,11 +23,7 @@ textColor = "#2C3E50"
 level = "info"
 
 [client]
-caching = true
-displayEnabled = true
 showErrorDetails = false
 
 [runner]
 magicEnabled = true
-installTracer = false
-fixMatplotlib = true
